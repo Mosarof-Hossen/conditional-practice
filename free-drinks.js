@@ -13,3 +13,13 @@ if(burger>=500){
 else{
     console.log("please buy the coke")
 }
+
+
+
+// const food=400;
+// if(food>=500){
+//     console.log("Free Coke with food. But you have to buy food worth 500 taka. ")
+// }
+// else{
+//     console.log("50tk coke ")
+// }
