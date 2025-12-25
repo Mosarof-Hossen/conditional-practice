@@ -93,20 +93,65 @@ for(let b=21;b>=15;b--){
 // const done=ok[2]
 // console.log(done)
 
-const cars = ["BMW", "Volvo", "Saab", "Ford"];
-let len = cars.length;
+// const cars = ["BMW", "Volvo", "Saab", "Ford"];
+// let len = cars.length;
 
-let text = "";
-for (let i = 0; i < len; i++) {
-  text += cars[i] ;
+// let text = "";
+// for (let i = 0; i < len; i++) {
+//   text += cars[i] ;
+// }
+// console.log(text)
+
+
+// const m=["mosarof","munir","hamja", "firoz"];
+// let worde=m.length;
+// let typ="";
+// for(let i=0;i<worde;i++){
+//     typ+=m[i];
+// }
+// console.log(typ)
+
+// let number=[10,43,63,66,76]
+// number.push(12)
+
+// console.log(number)
+// number.pop(12)
+// console.log(number)
+
+// let name=["mosarof","munir","hamja"]
+// name.push("firoz")
+// name.unshift("ashik")
+// console.log(name);
+
+
+let furts=["mango",'apple','tomato','orange'];
+
+furts[2]='jambura';
+console.log(furts);
+let tour=["cox's Bazar","Sajek","Sylhet"]
+tour.push("Bandarban");
+tour.push("kuakata","Saint Martin");
+tour.pop()
+console.log(tour)
+
+
+let books=["math","physics","javascript", "biology","chemistry"];
+if(books.includes("javascripte")){
+    console.log("javascript book is present in the array")
+
 }
-console.log(text)
-
-
-const m=["mosarof","munir","hamja", "firoz"];
-let worde=m.length;
-let typ="";
-for(let i=0;i<worde;i++){
-    typ+=m[i];
+else{
+    console.log("don't worry")
 }
-console.log(typ)
+
+console.log("next section");
+
+
+let fruits=["apple","banana","mango"];
+console.log("fruits",Array.isArray(fruits));
+let number=10;
+console.log("number",Array.isArray(number))
+
+let vegetables = ["carrot", "broccoli", "spinach"];
+let fruitse = ["apple", "banana", "orange"];
+console.log(vegetables.concat (fruitse))
