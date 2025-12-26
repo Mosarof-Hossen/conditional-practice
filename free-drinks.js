@@ -155,3 +155,66 @@ console.log("number",Array.isArray(number))
 let vegetables = ["carrot", "broccoli", "spinach"];
 let fruitse = ["apple", "banana", "orange"];
 console.log(vegetables.concat (fruitse))
+
+
+
+const niceee="i am a new developer in bangladesh";
+
+let ne="";
+for (const element of niceee) {
+    ne=element+ne;
+}
+console.log(ne)
+
+
+
+let co="my name is mosarof hossen";
+
+let n="";
+for(let i=0;i<co.length;i++){
+    const mm=co[i]
+    n=mm+n;
+   
+}
+ console.log(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ const bb="i am mosarof hossen dk hisgh school";
+ let dk="";
+ for(let i=0;i<bb.length;i++){
+    const fb=bb[i];
+    dk=fb+dk;
+ }
+ console.log(dk)
+
+
+
+ const mobile={
+    brand:'samsung',
+    price:25000,
+    color:'black',
+    camera:'12mp'
+ }
+
+ for(let phon in mobile){
+    // console.log(phon)
+    console.log(mobile[phon])
+
+ }
